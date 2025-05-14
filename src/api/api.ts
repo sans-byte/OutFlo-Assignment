@@ -1,7 +1,8 @@
 import axios from "axios";
 import { Campaign, Lead, PersonalizedMessageResponse } from "../types";
 
-const API_URL = "http://localhost:5000/api";
+// const API_URL = "http://localhost:5000/api";
+const API_URL = "https://outflo-assignment-zr3p.onrender.com/api";
 
 // Create axios instance
 const api = axios.create({
